@@ -3,8 +3,8 @@ Entry point for Uber receipt report generation.
 """
 
 from datetime import datetime
-from uber_report.data.uber_loader import carregar_recibos_pasta
-from uber_report.pdf.uber_builder import criar_relatorio_uber
+from data.uber_loader import carregar_recibos_pasta
+from pdf.uber_builder import criar_relatorio_uber
 
 PASTA_RECIBOS = "uber"
 

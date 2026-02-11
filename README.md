@@ -9,12 +9,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python -m uber_report.main_uber
-```
-
-Opcional (sem `-m`):
-```bash
-python uber_report/main_uber.py
+python main_uber.py
 ```
 
 ## Saida
